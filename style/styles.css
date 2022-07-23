@@ -96,7 +96,7 @@ header .active a {
 
 /*about*/
 .about {
-    padding: 105px 0;
+    padding: 180px 0 105px;
     background-color: #f6f2f2;
 }
 
