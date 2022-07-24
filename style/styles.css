@@ -53,12 +53,9 @@ iframe {
 }
 
 .header {
-    /*background-color: #f6f2f2;*/
     padding-top: 30px;
     width: 100%;
     position: fixed;
-    filter: drop-shadow(1rem 1rem 1rem #9F3919);
-    top:-25px;
     z-index: 10;
 }
 
@@ -80,8 +77,17 @@ header nav ul {
 nav {
     justify-content: space-evenly;
     align-items: center;
+    background: linear-gradient(90deg,
+    rgba(27,270,270,0) 0%,
+    rgba(200,22,22,0.2) 25%,
+    rgba(270,270,270,0.2) 75%,
+    rgba(2,2,2,0) 100%);
+    box-shadow: 0 0 25px rgba(0,0,0,0.1),
+    inset 0 0 1px rgba(255,255,255,0.6);
+}
+nav:hover{
     background-color: #313030;
-
+    border-radius: 10px;
 }
 
 .active:active {
@@ -318,11 +324,13 @@ header .active a {
     margin: 0 0 65px 75px;
 }
 
-.team i {
+.team__link {
     color: #737373;
 }
-
-.team i:hover {
+.team__active{
+    color: #ff3f40;
+}
+.team__link:hover {
     color: #ff2d2d;
     transition: .3s;
 }
@@ -330,7 +338,6 @@ header .active a {
 .team .team__small-picture {
     margin: 0 0 0 75px;
     display: flex;
-    /*gap: 20px;*/
     cursor: pointer;
 
 }
