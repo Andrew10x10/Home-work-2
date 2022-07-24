@@ -89,13 +89,15 @@ nav:hover{
     background-color: #313030;
     border-radius: 10px;
 }
-
-.active:active {
-    padding: 36px 24px 35px;
+.header .active{
+    background-color: #ff3f40;
 }
 
-.header__item:hover,
-header .active a {
+.header__link:active {
+    padding: 2px;
+}
+
+.header__link:hover{
     transition: .5s;
     background-color: #ff3f40;
 }
@@ -130,7 +132,13 @@ header .active a {
     color: white;
 }
 
-.about .about__contact:hover {
+.about .about__contact:active{
+    background-color: transparent;
+    color: #ff3f40;
+    transition: .3s;
+    box-shadow: 10px 10px  10px #ff3f40;
+}
+.about__contact:hover{
     background-color: transparent;
     color: #ff3f40;
     transition: .3s;
@@ -176,6 +184,13 @@ header .active a {
     color: white;
     transition: .3s;
     background-color: #ff2d2d;
+
+}
+.providing .providing__more:active{
+    background-color: transparent;
+    color: #ff3f40;
+    transition: .3s;
+    box-shadow: 10px 10px  10px #ff3f40;
 }
 
 .providing .providing__bar {
@@ -408,12 +423,15 @@ header .active a {
     height: 80px;
     width: 215px;
 }
-
+.feedback .feedback__button:active{
+    box-shadow: 10px 10px  10px #ff3f40;
+}
 .feedback .feedback__button:hover {
     background-color: #ffffff;
     color: #ff2d2d;
     border: solid 2px;
     transition: .3s;
+
 }
 
 .feedback .feedback__buttons {
@@ -504,6 +522,9 @@ header .active a {
     transition: .4s;
 }
 
+.buttons .buttons__send-massage:active {
+    box-shadow: 10px 10px  10px #ff3f40;
+}
 .buttons .buttons__right-background {
     background-color: #2d2d2d;
     width: 515px;
