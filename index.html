@@ -16,35 +16,38 @@
 <body>
 <header class="header">
     <div class="container">
-        <nav class="header__nav">
-            <ul class="header__wrapper">
-                <li class="active"><a class="header__link" href="./index.html">HOME</a></li>
-                <li><a class="header__link" href="#PortfolioPage">PORTFOLIO</a></li>
-                <li><a class="header__link" href="#OurTeam">ABOUT US</a></li>
-                <li><a class="header__link" href="#Contact">CONTACT</a></li>
-            </ul>
-        </nav>
+        <div class="header__body">
+            <nav class="header__navbar">
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <ul class="header__menu row">
+                    <li class="active-nav"><a class="header__link" href="./index.html">HOME</a></li>
+                    <li><a class="header__link" href="#PortfolioPage">PORTFOLIO</a></li>
+                    <li><a class="header__link" href="#OurTeam">ABOUT US</a></li>
+                    <li><a class="header__link" href="#Contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
 </header>
 <main>
-    <section class="about">
+    <section class="component">
         <div class="container">
-            <div class="row">
-                <div class=" col about__info">
-                    <h1 id="HomePage" class="about__title">OUR STRONG ORGANAISATION</h1>
-                    <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
+            <div class="component__body row">
+                <div class="component__info">
+                    <h1 id="HomePage" class="component__title">OUR STRONG ORGANAISATION</h1>
+                    <p class="component__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
                         fugit ipsam ipsum optio quis, sapiente. Aperiam facere maiores molestias optio rem vel velit.
                         Asperiores cupiditate quas tempore veritatis!</p>
-                    <a class="btn about__contact" href="#">
+                    <a class="component__contact btn" href="#">
                         Contact Us
                     </a>
                 </div>
-                <div class="col about__video">
-                    <div class="about__video-wrapper">
+                <div class="component__video">
                         <iframe height="355" src="https://www.youtube.com/embed/JjJ90jhS84A?start=70"
                                 title="Music" allow="accelerometer; autoplay; clipboard-write;
                          encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
                 </div>
             </div>
         </div>
@@ -254,7 +257,7 @@
         </div>
     </section>
 </main>
-<footer>
+<footer class="footer">
     <div class="container">
         <div class="footer__flex">
             <div class="footer__left-side">
@@ -272,4 +275,5 @@
     </div>
 </footer>
 </body>
+<script src="js/scripte.js"></script>
 </html>
