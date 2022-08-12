@@ -22,7 +22,7 @@
                     <span></span>
                 </div>
                 <ul class="header__menu row">
-                    <li class="active-nav"><a class="header__link" href="./index.html">HOME</a></li>
+                    <li><a class="header__link" href="./index.html">HOME</a></li>
                     <li><a class="header__link" href="#PortfolioPage">PORTFOLIO</a></li>
                     <li><a class="header__link" href="#OurTeam">ABOUT US</a></li>
                     <li><a class="header__link" href="#Contact">CONTACT</a></li>
@@ -37,7 +37,8 @@
             <div class="component__body row">
                 <div class="component__info">
                     <h1 class="component__title">OUR STRONG ORGANAISATION</h1>
-                    <p class="component__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
+                    <p class="component__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Accusantium
                         fugit ipsam ipsum optio quis, sapiente. Aperiam facere maiores molestias optio rem vel velit.
                         Asperiores cupiditate quas tempore veritatis!</p>
                     <a class="component__contact btn" href="#">
@@ -45,8 +46,8 @@
                     </a>
                 </div>
                 <div class="component__video">
-                        <iframe height="355" src="https://www.youtube.com/embed/JjJ90jhS84A?start=70"
-                                title="Music" allow="accelerometer; autoplay; clipboard-write;
+                    <iframe height="355" src="https://www.youtube.com/embed/JjJ90jhS84A?start=70"
+                            title="Music" allow="accelerometer; autoplay; clipboard-write;
                          encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
@@ -232,13 +233,17 @@
             <div class="contact__wrap row">
                 <div class="contact__left">
                     <form class="contact__entry-box row">
-                        <label class="contact__two row">
-                            <input type="text" placeholder="Name" class="contact__entry-box-name">
-                            <input type="email" placeholder="Your Mail" class="contact__entry-box-mail">
-                        </label>
+                        <div class="contact__two row">
+                            <label class="contact__entry-box-name">
+                                <input type="text" placeholder="Name" class="contact__entry-box-name-hidden">
+                            </label>
+                            <label class="contact__entry-box-mail">
+                                <input type="email" placeholder="Your Mail"  class="contact__entry-box-mail-hidden">
+                            </label>
+                        </div>
                         <label>
-                    <textarea name="user_massage" placeholder="Type your message"
-                              class="contact__entry-box-textarea"></textarea>
+                            <textarea name="user_massage" placeholder="Type your message"
+                                      class="contact__entry-box-textarea"></textarea>
                         </label>
                     </form>
                     <div class="contact__send">
@@ -255,7 +260,7 @@
                        class="contact__right-link" target="_blank">Jalalabad 24/A, Ambaarkhana, Sylhet,
                         Bangladesh</a>
                     <a href="mailto:redwan@deviserweb.com" class="contact__right-link">redwan@deviserweb.com</a>
-                    <a href="tel:(+88) 017 617 46373" class="contact__right-link">(+88) 017 617 46373</a>
+                    <a href="tel:(+88)01761746373" class="contact__right-link">(+88) 017 617 46373</a>
                 </div>
             </div>
         </div>
@@ -278,6 +283,8 @@
         </div>
     </div>
 </footer>
+<script src="js/scripte.js">
+
+</script>
 </body>
-<script src="js/scripte.js"></script>
 </html>
