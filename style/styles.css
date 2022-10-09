@@ -635,7 +635,9 @@ iframe {
 }
 
 .product__information-links {
-    gap: 60px;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    row-gap: 15px;
     justify-content: center;
 }
 
@@ -782,6 +784,7 @@ iframe {
 
 .team__bottom {
     display: flex;
+    flex-wrap: wrap;
     gap: 35px;
 }
 
@@ -830,6 +833,7 @@ iframe {
 
 .team__small-picture{
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 .team__small-picture li {
