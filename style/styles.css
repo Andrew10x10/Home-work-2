@@ -87,6 +87,9 @@ li {
     font-style: normal;
     font-display: swap;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-size: var(--font-md);
@@ -784,7 +787,7 @@ iframe {
 
 .team__bottom {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     gap: 35px;
 }
 
@@ -860,7 +863,12 @@ iframe {
     .container {
         max-width: 1200px;
     }
-
+    .team__bottom{
+        flex-wrap: wrap;
+    }
+    .team__left img{
+        width: 25vw;
+    }
     .team__small-picture ul {
         flex-wrap: wrap;
     }
@@ -910,7 +918,9 @@ iframe {
     .team__bottom {
         flex-direction: column;
     }
-
+    .team__left img{
+        width: 50vw;
+    }
     .team__small-picture ul {
         justify-content: center;
         gap: 5px;
@@ -940,6 +950,9 @@ iframe {
 
     .team__description {
         width: 100%;
+    }
+    .team__small-picture{
+        justify-content: center;
     }
 }
 
